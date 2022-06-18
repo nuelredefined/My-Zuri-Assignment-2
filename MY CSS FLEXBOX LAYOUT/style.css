@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    min-width: 375px;
+    max-width: 1440px;
+}
+
+body{
+    font-size: 15px;
+    background-color: hsl(0, 0%, 95%);
+}
+
+main .cardgroup{
+    position: relative;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100vh;
+}
+
+
+/* ================SEDANS=============== */
+.cardgroup .sedans{
+    background-color: hsl(31, 77%, 52%);
+    padding: 2.2rem;
+    border-radius: 6px 0 0 6px;
+}
+
+.cardgroup .sedans img{
+    width: 50px;
+    padding-bottom: 1.5rem;
+}
+
+.cardgroup .sedans h2{
+    font-family: "big shoulders display", cursive;
+    font-weight: 700;
+    font-size: 2rem;
+    color: hsl(0, 0%, 95%);
+    padding-bottom: 1.5rem;
+}
+
+.cardgroup .sedans p{
+    font-family: "lexend deca", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    color: hsla(0, 0%, 100%, 0.75);
+    line-height: 1.2rem;
+    padding-bottom: 4rem;
+}
+
+.cardgroup .sedans button{
+    font-family:"lexend deca", sans-serif;
+    font-family: 400;
+    color: hsl(0, 0%, 95%);
+    background-color: hsl(31, 77%, 52%);
+    border: 2px solid hsl(0, 0%, 95%);
+    padding: 10px 20px;
+    border-radius: 20px;
+    letter-spacing: 2;
+    transition: all 0.3s ease-in-out;
+}
+
+.cardgroup .sedans button:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+    background-color: hsl(31, 91%, 35%);
+}
+
+/* ===============SUVS============ */
+.cardgroup .suvs{
+    background-color: hsl(184, 100%, 22%);
+    padding: 2.2rem;
+}
+
+.cardgroup .suvs img{
+    width: 50px;
+    padding-bottom: 1.5rem;
+}
+
+.cardgroup .suvs h2{
+    font-family: "big shoulders display", cursive;
+    font-weight: 700;
+    font-size: 2rem;
+    color: hsl(0, 0%, 95%);
+    padding-bottom: 1.5rem;
+
+}
+
+.cardgroup .suvs p{
+    font-family: "lexend deca", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    color: hsla(0, 0%, 100%, 0.75);
+    line-height: 1.2rem;
+    padding-bottom: 4rem;
+}
+
+.cardgroup .suvs button{
+    font-family: "lexend deca", sans-serif;
+    font-weight: 400;
+    color: hsl(0, 0%, 95%);
+    background-color: hsl(184, 100%, 22%);
+    border: 2px solid hsl(0, 0%, 95%);
+    padding: 10px 20px;
+    border-radius: 20px;
+    letter-spacing: 2;
+    transition: all 0.3s ease-in-out;
+}
+
+.cardgroup .suvs button:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+    background-color: hsl(184, 68%, 40%);
+}
+
+
+/* ===============LUXURY============ */
+.cardgroup .luxury{
+    background-color: hsl(179, 100%, 13%);
+    padding: 2.2rem;
+    border-radius: 0 6px 6px 0;
+}
+
+.cardgroup .luxury img{
+    width: 50px;
+    padding-bottom: 1.5rem;
+}
+
+.cardgroup .luxury h2{
+    font-family: "big shoulders display", cursive;
+    font-weight: 700;
+    font-size: 2rem;
+    color: hsl(0, 0%, 95%);
+    padding-bottom: 1.5rem;
+
+}
+
+.cardgroup .luxury p{
+    font-family: "lexend deca", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    color: hsla(0, 0%, 100%, 0.75);
+    line-height: 1.2rem;
+    padding-bottom: 4rem;
+}
+
+.cardgroup .luxury button{
+    font-family: "lexend deca", sans-serif;
+    font-weight: 400;
+    color: hsl(0, 0%, 95%);
+    background-color: hsl(184, 100%, 22%);
+    border: 2px solid hsl(0, 0%, 95%);
+    padding: 10px 20px;
+    border-radius: 20px;
+    letter-spacing: 2;
+    transition: all 0.3s ease-in-out;
+}
+
+.cardgroup .luxury button:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+    background-color: hsl(184, 68%, 40%);
+}
